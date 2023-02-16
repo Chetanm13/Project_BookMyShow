@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>Registration Form</title>
+<meta name="keywords" content="example, JavaScript Form Validation, Sample registration form" />
+<meta name="description" content="This document is an example of JavaScript Form Validation using a sample registration form. " />
+<link rel='stylesheet' href='sign.css' type='text/css' />
+</head>
+<body>
+<center>
+<h1>Sign Up</h1>
+
+<form name='registration' action="register.php" method="post">
+<table>
+<tr>
+<td><label for="username">Full Name:</label></td>
+<td><input type="text" name="username" size="50" /></td>
+</tr>
+<tr>    
+<td><label for="email">Email:</label></td>
+<td><input type="text" name="email" size="50" /></td>
+</tr>
+<tr>
+<td><label for="passid">Password:</label></td>
+<td><input type="password" name="passid" size="12" /></td>
+</tr>
+<tr>
+<td><label for="dob">DOB</label></td>
+<td><input type="date" id="dateofbirth" name="dob" placeholder="DD/MM/YYYY" /></td>
+</tr>
+<tr>
+<td><label id="gender">Gender:</label></td>
+<td><input type="radio" name="gender" value="Male" /><span>Male</span>
+    <input type="radio" name="gender" value="Female" /><span>Female</span></td>
+</tr>
+<tr>
+<td><input type="submit" name="submit" value="Submit" id="submit" /></td>
+</tr>
+</table>
+</form>
+</center>
+
+
+</body>
+</html>
